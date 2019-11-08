@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="image/fav.png">
+        <title>Assignment</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+          <div class="container">
+              <img src="image/roni.jpg">
+            <div class ="heading">
+                  <h1>Hi! I'm Rafiqul Islam Roni</h1>
+                  <p>Assalamualaikum.<br> My name is Rafiqul Islam Roni.Last
+                  Year I completed my B.Sc in Computer Science and Engineering.I would like to be a professional <strong><a href="#">WEB DESIGNER</a></strong> that is why I came hare.I know sikhbe soabi to provide me a proper guideline about web design</p>
+                <h4><b>100 HTML</b>Tag and their description is given the Table below...</h4>
+              <div class="table">
+                  <table border="1">
+                    <tr>
+                        <th>SI No.</th>
+                        <th>Tag's Name</th>
+                        <th>Tag Description</th>
+                        <th>Tag Example</th>
+                      </tr>
+                      <tr>
+                        <td>01</td>
+                        <td>!DOCTYPE</td>
+                        <td>Defines the document type</td>
+                          <td>Always add the <!DOCTYPE> declaration to your HTML documents, so that the browser knows what type of document to expect</td>
+                      </tr>
+                      <tr>
+                        <td>02</td>
+                        <td>a</td>
+                        <td>Defines a hyperlink</td>
+                        <td><a href="https://www.w3schools.com">Visit W3Schools.com!</a>W3schools</td>
+                      </tr>
+                      <tr>
+                        <td>03</td>
+                        <td>abbr</td>
+                        <td>Defines an abbreviation or an acronym</td>
+                        <td><p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p></td>
+                      </tr>
+                      <tr>
+                        <td>04</td>
+                        <td>address</td>
+                        <td>Defines contact information for the author/owner of a document</td>
+                        <td><address>
+                        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+                        Visit us at:<br>
+                        Example.com<br>
+                        Box 564, Disneyland<br>
+                        USA
+                        </address></td>
+                      </tr>
+                      <tr>
+                        <td>05</td>
+                        <td>area</td>
+                        <td>Defines an area inside an image-map</td>
+                        <td><p>Click on the sun or on one of the planets to watch it closer:</p>
+                        <img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+                        <map name="planetmap">
+                          <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+                          <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+                          <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+                        </map></td>
+                      </tr>
+                      <tr>
+                        <td>06</td>
+                        <td>article</td>
+                        <td>Defines an article</td>
+                      <td><article>
+                      <h4>Google Chrome</h4>
+                      <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+                    </article></td>
+                      </tr>
+                      <tr>
+                        <td>07</td>
+                        <td>aside</td>
+                        <td>Defines content aside from the page content</td>
+                       <td>
+                          <aside>
+                              <h4>Epcot Center</h4>
+                              <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+                            </aside>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>audio</td>
+                        <td>Defines sound content</td>
+                          <td><audio controls>
+                          <source src="audio/abc.mp4" type="audio/mp4">
+                          Your browser does not support the audio element.
+                        </audio></td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>b</td>
+                        <td>Defines bold text</td>
+                          <td><p>This is normal text - <b>and this is bold text</b>.</p></td>
+                      </tr>
+                      <tr>
+                        <td>10</td>
+                        <td>base</td>
+                        <td>	Specifies the base URL/target for all relative URLs in a document</td>
+                          <td><img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+                        <a href="tags/tag_base.asp">HTML base Tag</a></td>
+                      </tr>
+                      <tr>
+                        <td>11</td>
+                        <td>bdo</td>
+                        <td>Overrides the current text direction</td>
+                        <td><bdo dir="rtl">
+                        This text will go right-to-left.
+                        </bdo></td>
+                    </tr>
+                      <tr>
+                        <td>12</td>
+                        <td>body</td>
+                        <td>Defines the document's body</td>
+                        <td>
+                          <html>
+                            <head>
+                            <title>Title of the document</title>
+                            </head>
+                                <body>
+                                The content of the document......
+                                </body>
+                            </html>
+                          </td>
+                    </tr>
+                      <tr>
+                        <td>13</td>
+                        <td>br</td>
+                        <td>Defines a single line break</td>
+                        <td>This text contains<br>a line break.</td>
+                    </tr>
+                      <tr>
+                        <td>14</td>
+                        <td>button</td>
+                        <td>Defines a clickable button</td>
+                        <td>
+                          <h2>The Button Element</h2>
+                            <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+                        </td>
+                    </tr>
+                      <tr>
+                        <td>15</td>
+                        <td>canvas</td>
+                        <td>Used to draw graphics, on the fly, via scripting (usually JavaScript)</td>
+                        <td>
+                            <canvas id="myCanvas"></canvas>
+                            <script>
+                            var canvas = document.getElementById("myCanvas");
+                            var ctx = canvas.getContext("2d");
+                            ctx.fillStyle = "#FF0000";
+                            ctx.fillRect(0, 0, 80, 80);
+                            </script>
+                        </td>
+                    </tr>
+                      <tr>
+                        <td>16</td>
+                        <td>caption</td>
+                        <td>Defines a table caption</td>
+                        <td>
+                          <table>
+                              <caption>Monthly savings</caption>
+                              <tr>
+                                <th>Month</th>
+                                <th>Savings</th>
+                              </tr>
+                              <tr>
+                                <td>January</td>
+                                <td>$100</td>
+                              </tr>
+                            </table>
+                        </td>
+                    </tr>
+                      <tr>
+                        <td>17</td>
+                        <td>center</td>
+                        <td>Defines centered text</td>
+                        <td><center>This text will be center-aligned.</center></td>
+                    </tr>
+                      <tr>
+                        <td>18</td>
+                        <td>cite</td>
+                        <td>Defines the title of a work</td>
+                        <td><p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p></td>
+                    </tr>
+                      <tr>
+                        <td>18</td>
+                        <td>code</td>
+                        <td>Defines a piece of computer code</td>
+                        <td>
+                            <em>Emphasized text</em><br>
+                            <strong>Strong text</strong><br>
+                            <code>A piece of computer code</code><br>
+                            <samp>Sample output from a computer program</samp><br>
+                            <kbd>Keyboard input</kbd><br>
+                            <var>Variable</var>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>19</td>
+                      <td>data</td>
+                      <td>Links the given content with a machine-readable translation</td>
+                      <td>
+                           <ul>
+                              <li><data value="21053">Cherry Tomato</data></li>
+                              <li><data value="21054">Beef Tomato</data></li>
+                              <li><data value="21055">Snack Tomato</data></li>
+                            </ul> 
+                      </td>
+                    </tr>
+                      <tr>
+                      <td>20</td>
+                      <td>datalist</td>
+                      <td>Specifies a list of pre-defined options for input controls</td>
+                      <td><form action="/action_page.php" method="get">
+                          <input list="browsers" name="browser">
+                          <datalist id="browsers">
+                            <option value="Internet Explorer">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                          </datalist>
+                          <input type="submit">
+                        </form></td>
+                    </tr>
+                      <tr>
+                      <td>21</td>
+                      <td>dd</td>
+                      <td>Defines a description/value of a term in a description list</td>
+                      <td>
+                         <dl>
+                          <dt>Coffee</dt>
+                          <dd>Black hot drink</dd>
+                          <dt>Milk</dt>
+                          <dd>White cold drink</dd>
+                        </dl>    
+                      </td>
+                    </tr>
+                      <tr>
+                      <td>22</td>
+                      <td>del</td>
+                      <td>Defines text that has been deleted from a document</td>
+                      <td><p>My favorite color is <del>blue</del> <ins>red</ins>!</p></td>
+                    </tr>
+                      <tr>
+                      <td>23</td>
+                      <td>dl</td>
+                      <td>Defines a description list</td>
+                      <td><dl>
+                          <dt>Coffee</dt>
+                          <dd>Black hot drink</dd>
+                          <dt>Milk</dt>
+                          <dd>White cold drink</dd>
+                        </dl>
+                        </td>
+                    </tr>
+                      <tr>
+                      <td>24</td>
+                      <td>embed</td>
+                      <td>Defines a container for an external (non-HTML) application</td>
+                      <td><embed src="helloworld.swf"></td>
+                    </tr>
+                      <tr>
+                      <td>25</td>
+                      <td>fieldset</td>
+                      <td>Groups related elements in a form</td>
+                      <td><form>
+                      <fieldset>
+                        <legend>Personalia:</legend>
+                        Name: <input type="text"><br>
+                        Email: <input type="text"><br>
+                        Date of birth: <input type="text">
+                      </fieldset>
+                    </form></td>
+                    </tr>
+                      <tr>
+                      <td>26</td>
+                      <td>font</td>
+                      <td>Defines font, color, and size for text</td>
+                      <td><font size="3" color="red">This is some text!</font>
+                        <font face="verdana" color="green">This is some text!</font></td>
+                    </tr>
+                      <tr>
+                      <td>27</td>
+                      <td>footer</td>
+                      <td>Defines a footer for a document or section</td>
+                      <td><footer>
+                      <p>Posted by: Hege Refsnes</p>
+                      <p>Contact information: <a href="mailto:someone@example.com">
+                      someone@example.com</a>.</p>
+                    </footer></td>
+                    </tr>
+                      <tr>
+                      <td>28</td>
+                      <td>frame</td>
+                      <td>efines a window (a frame) in a frameset</td>
+                      <td><frameset cols="25%,50%,25%">
+                      <frame src="image/fav.png">
+                      <frame src="frame_b.htm">
+                      <frame src="frame_c.htm">
+                    </frameset></td>
+                    </tr>
+                      <tr>
+                      <td>29</td>
+                      <td>h1 to h6</td>
+                      <td>Defines HTML headings</td>
+                      <td>
+                            <h2>This is heading 2</h2>
+                            <h3>This is heading 3</h3>
+                            <h5>This is heading 5</h5>
+                            <h6>This is heading 6</h6>
+                          </td>
+                    </tr>
+                      <tr>
+                      <td>30</td>
+                      <td>p</td>
+                      <td>The <p> tag defines a paragraph.
+                        Browsers automatically add some space (margin) before and after each <p> element. The margins can be modified with CSS (with the margin properties).</td>
+                      <td><p>This is some text in a paragraph.</p>
+                          </td>
+                    </tr>
+                      <tr>
+                      <td>31</td>
+                      <td>pre</td>
+                      <td>Defines preformatted text</td>
+                      <td><pre>
+                        Text in a pre element
+                        is displayed in a fixed-width
+                        font, and it preserves
+                        both      spaces and
+                        line breaks
+                        </pre></td>
+                    </tr>
+                      <tr>
+                      <td>32</td>
+                      <td>main</td>
+                      <td>Specifies the main content of a document</td>
+                      <td><main>
+                          <article>
+
+                            <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+                          </article>
+
+                          <article>
+
+                            <p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
+                          </article>
+
+                          <article>
+
+                            <p>Firefox is a free, open-source web browser from Mozilla, released in 2004.</p>
+                          </article>
+                        </main></td>
+                    </tr>
+                      <tr>
+                      <td>33</td>
+                      <td>ol</td>
+                      <td>Defines an ordered list</td>
+                      <td><ol start="50">
+                      <li>Coffee</li>
+                      <li>Tea</li>
+                      <li>Milk</li>
+                    </ol></td>
+                    </tr>
+              </table>
+              </div>
+           </div>
+       </div>
+    </body>
+</html>
